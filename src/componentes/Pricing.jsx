@@ -48,9 +48,9 @@ function Pricing() {
                 </button>
             </div>
             <div className="plans">
-                <Plans Img={Img1} point="core" price="12" line="Best for solo creators" pricingFeatures={pricingFeatures_1}/>
-                <Plans Img={Img2} point="overdrive" color={true} price="59" line="Most popular plan" pricingFeatures={pricingFeatures_2}/>
-                <Plans Img={Img3} point="team" price="29" line="Exclusively for teams" pricingFeatures={pricingFeatures_3}/>
+                <Plans Img={Img1} point="core" price={active ? "19" : "12"} line="Best for solo creators" pricingFeatures={pricingFeatures_1} />
+                <Plans Img={Img2} point="overdrive" color={true} price={active ? "79" : "59"} line="Most popular plan" pricingFeatures={pricingFeatures_2} />
+                <Plans Img={Img3} point="team" price={active ? "39" : "29"} line="Exclusively for teams" pricingFeatures={pricingFeatures_3} />
             </div>
         </section>
     )

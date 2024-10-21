@@ -13,10 +13,18 @@ function Offcanvas({ bgColor }) {
                 <Hamburger fullHeight={fullHeight} setFullHeight={setFullHeight} />
             </div>
             <ul className='sections'>
-                <li className='section'>Features</li>
-                <li className='section'>Pricing</li>
-                <li className='section'>FAQ</li>
-                <li className='section'>Download</li>
+                <li className='section'>
+                    <a href="#section_feature" onClick={() => setFullHeight(false)}>Features</a>
+                </li>
+                <li className='section'>
+                    <a href="#section_pricing" onClick={() => setFullHeight(false)}>Pricing</a>
+                </li>
+                <li className='section'>
+                    <a href="#section_faq" onClick={() => setFullHeight(false)}>FAQ</a>
+                </li>
+                <li className='section'>
+                    <a href="#section_download" onClick={() => setFullHeight(false)}>Download</a>
+                </li>
             </ul>
             <ul className="links">
                 <li className="link">

@@ -7,7 +7,7 @@ import WindowsSvg from './WindowsSvg'
 import Browser from './Browser'
 function Download() {
     return (
-        <section className='download px-5 lg:px-24 xl:px-44'>
+        <section className='download px-5'>
             <div className="download_col">
                 <Logo />
                 <h2 className="text py-8 sm:text-2xl lg:text-3xl">Try it now for free on iOS, Android, PC, Web - whatever your flavor, we’ve got you covered.</h2>

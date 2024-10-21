@@ -12,9 +12,6 @@ function Faq() {
         "I’m locked out of my account what do I do?"
     ]
 
-
-
-
     const [activeQuestion, setActiveQuestion] = useState(new Array(questions.length).fill(false));
 
     const toggleQuestion = (index) => {
@@ -24,7 +21,7 @@ function Faq() {
     }
 
     return (
-        <section className='faq px-5 lg:px-24 xl:px-44'>
+        <section className='faq px-5 '>
             <img className='faq_img' src={Img} alt="" />
             <div className="questions">
                 {
